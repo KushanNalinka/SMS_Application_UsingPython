@@ -1,0 +1,89 @@
+2025-04-16 15:51:22,050 [INFO] Processing message ID 1 for mobile 94771234567
+2025-04-16 15:51:22,052 [INFO] Processing message ID 1 for mobile 94771234567
+2025-04-16 15:51:22,052 [INFO] Processing message ID 1 for mobile 94771234567
+2025-04-16 15:51:22,052 [INFO] Processing message ID 1 for mobile 94771234567
+2025-04-16 15:51:22,107 [INFO] Received response for message 1: Id=0|Mob=94771234567
+2025-04-16 15:51:22,118 [ERROR] Message 1 delivery failed. Response: Id=0|Mob=94771234567
+2025-04-16 15:51:22,120 [INFO] Processing message ID 2 for mobile 94711234567
+2025-04-16 15:51:22,171 [INFO] Received response for message 2: Id=0|Mob=94711234567
+2025-04-16 15:51:22,176 [ERROR] Message 2 delivery failed. Response: Id=0|Mob=94711234567
+2025-04-16 15:51:27,143 [INFO] Received response for message 1: Id=0|Mob=94771234567
+2025-04-16 15:51:27,145 [INFO] Received response for message 1: Id=0|Mob=94771234567
+2025-04-16 15:51:27,145 [INFO] Received response for message 1: Id=0|Mob=94771234567
+2025-04-16 15:51:27,146 [ERROR] Message 1 delivery failed. Response: Id=0|Mob=94771234567
+2025-04-16 15:51:27,149 [ERROR] Message 1 delivery failed. Response: Id=0|Mob=94771234567
+2025-04-16 15:51:27,150 [INFO] Processing message ID 2 for mobile 94711234567
+2025-04-16 15:51:27,152 [ERROR] Message 1 delivery failed. Response: Id=0|Mob=94771234567
+2025-04-16 15:51:27,152 [INFO] Processing message ID 2 for mobile 94711234567
+2025-04-16 15:51:27,153 [INFO] Processing message ID 2 for mobile 94711234567
+2025-04-16 15:51:27,209 [INFO] Received response for message 2: Id=0|Mob=94711234567
+2025-04-16 15:51:27,212 [ERROR] Message 2 delivery failed. Response: Id=0|Mob=94711234567
+2025-04-16 15:51:27,221 [INFO] Received response for message 2: Id=0|Mob=94711234567
+2025-04-16 15:51:27,222 [INFO] Received response for message 2: Id=0|Mob=94711234567
+2025-04-16 15:51:27,223 [ERROR] Message 2 delivery failed. Response: Id=0|Mob=94711234567
+2025-04-16 15:51:27,223 [ERROR] Message 2 delivery failed. Response: Id=0|Mob=94711234567
+2025-04-16 16:04:32,182 [INFO] Processing message ID 1 for mobile 94771234567
+2025-04-16 16:04:32,184 [INFO] Processing message ID 1 for mobile 94771234567
+2025-04-16 16:04:34,233 [ERROR] Exception processing message 1: [WinError 10061] No connection could be made because the target machine actively refused it
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Receiving\worker_thread.py", line 22, in process_message
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-04-16 16:04:34,234 [ERROR] Exception processing message 1: [WinError 10061] No connection could be made because the target machine actively refused it
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Receiving\worker_thread.py", line 22, in process_message
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-04-16 16:04:40,946 [INFO] Processing message ID 2 for mobile 94711234567
+2025-04-16 16:04:40,946 [INFO] Processing message ID 2 for mobile 94711234567
+2025-04-16 16:04:40,947 [INFO] Processing message ID 2 for mobile 94711234567
+2025-04-16 16:04:42,988 [ERROR] Exception processing message 2: [WinError 10061] No connection could be made because the target machine actively refused it
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Receiving\worker_thread.py", line 22, in process_message
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-04-16 16:04:42,989 [ERROR] Exception processing message 2: [WinError 10061] No connection could be made because the target machine actively refused it
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Receiving\worker_thread.py", line 22, in process_message
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-04-16 16:04:42,989 [ERROR] Exception processing message 2: [WinError 10061] No connection could be made because the target machine actively refused it
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Receiving\worker_thread.py", line 22, in process_message
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-04-16 16:07:01,999 [INFO] Processing message 1 for mobile 94771234567
+2025-04-16 16:07:01,999 [INFO] Processing message 1 for mobile 94771234567
+2025-04-16 16:07:01,999 [INFO] Processing message 1 for mobile 94771234567
+2025-04-16 16:07:01,999 [INFO] Processing message 1 for mobile 94771234567
+2025-04-16 16:07:01,999 [INFO] Processing message 1 for mobile 94771234567
+2025-04-16 16:07:02,065 [INFO] Received response: Id=0|Mob=94771234567 for message 1
+2025-04-16 16:07:02,068 [INFO] Received response: Id=0|Mob=94771234567 for message 1
+2025-04-16 16:07:02,073 [ERROR] Message 1 delivery failed. Response: Id=0|Mob=94771234567
+2025-04-16 16:07:02,073 [ERROR] Message 1 delivery failed. Response: Id=0|Mob=94771234567
+2025-04-16 16:07:02,074 [INFO] Processing message 2 for mobile 94711234567
+2025-04-16 16:07:02,074 [INFO] Processing message 2 for mobile 94711234567
+2025-04-16 16:07:02,145 [INFO] Received response: Id=0|Mob=94711234567 for message 2
+2025-04-16 16:07:02,153 [INFO] Received response: Id=0|Mob=94711234567 for message 2
+2025-04-16 16:07:02,158 [ERROR] Message 2 delivery failed. Response: Id=0|Mob=94711234567
+2025-04-16 16:07:02,158 [ERROR] Message 2 delivery failed. Response: Id=0|Mob=94711234567
+2025-04-16 16:07:07,049 [INFO] Received response: Id=0|Mob=94771234567 for message 1
+2025-04-16 16:07:07,053 [ERROR] Message 1 delivery failed. Response: Id=0|Mob=94771234567
+2025-04-16 16:07:07,053 [INFO] Processing message 2 for mobile 94711234567
+2025-04-16 16:07:07,074 [INFO] Received response: Id=0|Mob=94771234567 for message 1
+2025-04-16 16:07:07,076 [INFO] Received response: Id=0|Mob=94771234567 for message 1
+2025-04-16 16:07:07,077 [ERROR] Message 1 delivery failed. Response: Id=0|Mob=94771234567
+2025-04-16 16:07:07,077 [ERROR] Message 1 delivery failed. Response: Id=0|Mob=94771234567
+2025-04-16 16:07:07,078 [INFO] Processing message 2 for mobile 94711234567
+2025-04-16 16:07:07,078 [INFO] Processing message 2 for mobile 94711234567
+2025-04-16 16:07:07,109 [INFO] Received response: Id=0|Mob=94711234567 for message 2
+2025-04-16 16:07:07,112 [ERROR] Message 2 delivery failed. Response: Id=0|Mob=94711234567
+2025-04-16 16:07:07,143 [INFO] Received response: Id=0|Mob=94711234567 for message 2
+2025-04-16 16:07:07,144 [INFO] Received response: Id=0|Mob=94711234567 for message 2
+2025-04-16 16:07:07,145 [ERROR] Message 2 delivery failed. Response: Id=0|Mob=94711234567
+2025-04-16 16:07:07,145 [ERROR] Message 2 delivery failed. Response: Id=0|Mob=94711234567

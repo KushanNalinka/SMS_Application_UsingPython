@@ -1,0 +1,500 @@
+2025-04-21 10:20:20,397 [INFO] SMS Gateway Server listening on 0.0.0.0:5001
+2025-04-21 10:20:56,030 [INFO] Accepted connection from ('127.0.0.1', 50853)
+2025-04-21 10:20:56,030 [INFO] Received data from ('127.0.0.1', 50853): 1|94771234567|Your OTP is 123456.
+2025-04-21 10:20:56,031 [INFO] Accepted connection from ('127.0.0.1', 50854)
+2025-04-21 10:20:56,031 [INFO] Connecting to 10.58.160.8:2775...
+2025-04-21 10:20:56,031 [INFO] Received data from ('127.0.0.1', 50854): 1|94771234567|Your OTP is 123456.
+2025-04-21 10:20:56,031 [INFO] Accepted connection from ('127.0.0.1', 50855)
+2025-04-21 10:20:56,031 [INFO] Connecting to 202.129.234.33:5020...
+2025-04-21 10:20:56,032 [INFO] Received data from ('127.0.0.1', 50855): 1|94771234567|Your OTP is 123456.
+2025-04-21 10:20:56,032 [INFO] Accepted connection from ('127.0.0.1', 50856)
+2025-04-21 10:20:56,034 [INFO] Connecting to 119.235.1.79:5019...
+2025-04-21 10:20:56,034 [INFO] Received data from ('127.0.0.1', 50856): 1|94771234567|Your OTP is 123456.
+2025-04-21 10:20:56,034 [INFO] Accepted connection from ('127.0.0.1', 50857)
+2025-04-21 10:20:56,036 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:20:56,052 [INFO] Received data from ('127.0.0.1', 50857): 1|94771234567|Your OTP is 123456.
+2025-04-21 10:20:56,053 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:20:56,064 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:20:56,076 [ERROR] Sending SMS failed for message id 1 to mobile 94771234567
+2025-04-21 10:20:56,083 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:20:56,094 [ERROR] Sending SMS failed for message id 1 to mobile 94771234567
+2025-04-21 10:20:56,102 [INFO] Accepted connection from ('127.0.0.1', 50863)
+2025-04-21 10:20:56,103 [INFO] Received data from ('127.0.0.1', 50863): 2|94711234567|Your balance is Rs.5000
+2025-04-21 10:20:56,105 [INFO] Accepted connection from ('127.0.0.1', 50864)
+2025-04-21 10:20:56,105 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:20:56,120 [INFO] Received data from ('127.0.0.1', 50864): 2|94711234567|Your balance is Rs.5000
+2025-04-21 10:20:56,121 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:20:56,133 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:20:56,144 [ERROR] Sending SMS failed for message id 2 to mobile 94711234567
+2025-04-21 10:20:56,144 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:20:56,154 [ERROR] Sending SMS failed for message id 2 to mobile 94711234567
+2025-04-21 10:21:01,045 [ERROR] Failed connecting/binding to 202.129.234.33:5020 - Connection refused
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\env\Lib\site-packages\smpplib\client.py", line 139, in connect
+    self._socket.connect((self.host, self.port))
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 18, in connect_and_bind
+    self.client.connect()
+  File "D:\SMS_Gateway_Using_Python\Gateway\env\Lib\site-packages\smpplib\client.py", line 142, in connect
+    raise exceptions.ConnectionError("Connection refused")
+smpplib.exceptions.ConnectionError: Connection refused
+2025-04-21 10:21:01,045 [ERROR] Failed connecting/binding to 10.58.160.8:2775 - Connection refused
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\env\Lib\site-packages\smpplib\client.py", line 139, in connect
+    self._socket.connect((self.host, self.port))
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 18, in connect_and_bind
+    self.client.connect()
+  File "D:\SMS_Gateway_Using_Python\Gateway\env\Lib\site-packages\smpplib\client.py", line 142, in connect
+    raise exceptions.ConnectionError("Connection refused")
+smpplib.exceptions.ConnectionError: Connection refused
+2025-04-21 10:21:01,045 [ERROR] Failed connecting/binding to 119.235.1.79:5019 - Connection refused
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\env\Lib\site-packages\smpplib\client.py", line 139, in connect
+    self._socket.connect((self.host, self.port))
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 18, in connect_and_bind
+    self.client.connect()
+  File "D:\SMS_Gateway_Using_Python\Gateway\env\Lib\site-packages\smpplib\client.py", line 142, in connect
+    raise exceptions.ConnectionError("Connection refused")
+smpplib.exceptions.ConnectionError: Connection refused
+2025-04-21 10:21:01,049 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:21:01,058 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:21:01,068 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:21:01,076 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:21:01,088 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:21:01,098 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:21:01,107 [ERROR] Sending SMS failed for message id 1 to mobile 94771234567
+2025-04-21 10:21:01,114 [ERROR] Sending SMS failed for message id 1 to mobile 94771234567
+2025-04-21 10:21:01,115 [ERROR] Sending SMS failed for message id 1 to mobile 94771234567
+2025-04-21 10:21:01,121 [INFO] Accepted connection from ('127.0.0.1', 50883)
+2025-04-21 10:21:01,133 [INFO] Received data from ('127.0.0.1', 50883): 2|94711234567|Your balance is Rs.5000
+2025-04-21 10:21:01,133 [INFO] Accepted connection from ('127.0.0.1', 50884)
+2025-04-21 10:21:01,135 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:21:01,150 [INFO] Accepted connection from ('127.0.0.1', 50885)
+2025-04-21 10:21:01,150 [INFO] Received data from ('127.0.0.1', 50884): 2|94711234567|Your balance is Rs.5000
+2025-04-21 10:21:01,151 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:21:01,164 [INFO] Received data from ('127.0.0.1', 50885): 2|94711234567|Your balance is Rs.5000
+2025-04-21 10:21:01,165 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:21:01,176 [ERROR] Sending SMS failed for message id 2 to mobile 94711234567
+2025-04-21 10:21:01,176 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:21:01,185 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:21:01,197 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    source_addr_ton=smpplib.consts.SMPP_TON_ALPHANUMERIC,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:21:01,210 [ERROR] Sending SMS failed for message id 2 to mobile 94711234567
+2025-04-21 10:21:01,212 [ERROR] Sending SMS failed for message id 2 to mobile 94711234567
+2025-04-21 10:26:08,921 [INFO] SMS Gateway Server listening on 0.0.0.0:5001
+2025-04-21 10:28:52,413 [INFO] Accepted connection from ('127.0.0.1', 51023)
+2025-04-21 10:28:52,414 [INFO] Received data from ('127.0.0.1', 51023): 1|94771234567|Your OTP is 123456.
+2025-04-21 10:28:52,414 [INFO] Accepted connection from ('127.0.0.1', 51024)
+2025-04-21 10:28:52,415 [INFO] Connecting to 10.58.160.8:2775...
+2025-04-21 10:28:52,415 [INFO] Received data from ('127.0.0.1', 51024): 1|94771234567|Your OTP is 123456.
+2025-04-21 10:28:52,415 [INFO] Accepted connection from ('127.0.0.1', 51025)
+2025-04-21 10:28:52,415 [INFO] Connecting to 202.129.234.33:5020...
+2025-04-21 10:28:52,416 [INFO] Received data from ('127.0.0.1', 51025): 1|94771234567|Your OTP is 123456.
+2025-04-21 10:28:52,416 [INFO] Accepted connection from ('127.0.0.1', 51026)
+2025-04-21 10:28:52,416 [INFO] Connecting to 119.235.1.79:5019...
+2025-04-21 10:28:52,416 [INFO] Received data from ('127.0.0.1', 51026): 1|94771234567|Your OTP is 123456.
+2025-04-21 10:28:52,416 [INFO] Accepted connection from ('127.0.0.1', 51027)
+2025-04-21 10:28:52,417 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:52,417 [INFO] Received data from ('127.0.0.1', 51027): 1|94771234567|Your OTP is 123456.
+2025-04-21 10:28:52,445 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:52,454 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:52,466 [ERROR] Sending SMS failed for message id 1 to mobile 94771234567
+2025-04-21 10:28:52,468 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:52,480 [ERROR] Sending SMS failed for message id 1 to mobile 94771234567
+2025-04-21 10:28:52,487 [INFO] Accepted connection from ('127.0.0.1', 51033)
+2025-04-21 10:28:52,489 [INFO] Accepted connection from ('127.0.0.1', 51034)
+2025-04-21 10:28:52,490 [INFO] Received data from ('127.0.0.1', 51033): 2|94711234567|Your balance is Rs.5000
+2025-04-21 10:28:52,490 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:52,491 [INFO] Received data from ('127.0.0.1', 51034): 2|94711234567|Your balance is Rs.5000
+2025-04-21 10:28:52,499 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:52,512 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:52,524 [ERROR] Sending SMS failed for message id 2 to mobile 94711234567
+2025-04-21 10:28:52,526 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:52,538 [ERROR] Sending SMS failed for message id 2 to mobile 94711234567
+2025-04-21 10:28:57,422 [ERROR] Failed connecting/binding to 202.129.234.33:5020 - Connection refused
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\env\Lib\site-packages\smpplib\client.py", line 139, in connect
+    self._socket.connect((self.host, self.port))
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 18, in connect_and_bind
+    password=self.password)
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SMS_Gateway_Using_Python\Gateway\env\Lib\site-packages\smpplib\client.py", line 142, in connect
+    raise exceptions.ConnectionError("Connection refused")
+smpplib.exceptions.ConnectionError: Connection refused
+2025-04-21 10:28:57,422 [ERROR] Failed connecting/binding to 10.58.160.8:2775 - Connection refused
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\env\Lib\site-packages\smpplib\client.py", line 139, in connect
+    self._socket.connect((self.host, self.port))
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 18, in connect_and_bind
+    password=self.password)
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SMS_Gateway_Using_Python\Gateway\env\Lib\site-packages\smpplib\client.py", line 142, in connect
+    raise exceptions.ConnectionError("Connection refused")
+smpplib.exceptions.ConnectionError: Connection refused
+2025-04-21 10:28:57,422 [ERROR] Failed connecting/binding to 119.235.1.79:5019 - Connection refused
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\env\Lib\site-packages\smpplib\client.py", line 139, in connect
+    self._socket.connect((self.host, self.port))
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 18, in connect_and_bind
+    password=self.password)
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SMS_Gateway_Using_Python\Gateway\env\Lib\site-packages\smpplib\client.py", line 142, in connect
+    raise exceptions.ConnectionError("Connection refused")
+smpplib.exceptions.ConnectionError: Connection refused
+2025-04-21 10:28:57,426 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:57,436 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:57,444 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:57,453 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:57,465 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:57,477 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:57,485 [ERROR] Sending SMS failed for message id 1 to mobile 94771234567
+2025-04-21 10:28:57,488 [ERROR] Sending SMS failed for message id 1 to mobile 94771234567
+2025-04-21 10:28:57,489 [ERROR] Sending SMS failed for message id 1 to mobile 94771234567
+2025-04-21 10:28:57,498 [INFO] Accepted connection from ('127.0.0.1', 51047)
+2025-04-21 10:28:57,506 [INFO] Received data from ('127.0.0.1', 51047): 2|94711234567|Your balance is Rs.5000
+2025-04-21 10:28:57,506 [INFO] Accepted connection from ('127.0.0.1', 51048)
+2025-04-21 10:28:57,511 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:57,524 [INFO] Received data from ('127.0.0.1', 51048): 2|94711234567|Your balance is Rs.5000
+2025-04-21 10:28:57,524 [INFO] Accepted connection from ('127.0.0.1', 51049)
+2025-04-21 10:28:57,524 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:57,531 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:57,546 [INFO] Received data from ('127.0.0.1', 51049): 2|94711234567|Your balance is Rs.5000
+2025-04-21 10:28:57,546 [ERROR] Sending SMS failed for message id 2 to mobile 94711234567
+2025-04-21 10:28:57,547 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:57,556 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:57,563 [ERROR] Sending SMS failed for message id 2 to mobile 94711234567
+2025-04-21 10:28:57,571 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:28:57,580 [ERROR] Sending SMS failed for message id 2 to mobile 94711234567
+2025-04-21 10:30:41,787 [INFO] Accepted connection from ('127.0.0.1', 51354)
+2025-04-21 10:30:41,789 [INFO] Received data from ('127.0.0.1', 51354): 1|94771234567|Your OTP is 123456.
+2025-04-21 10:30:41,789 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:30:41,821 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:30:41,841 [ERROR] Sending SMS failed for message id 1 to mobile 94771234567
+2025-04-21 10:30:48,814 [INFO] Accepted connection from ('127.0.0.1', 51383)
+2025-04-21 10:30:48,814 [INFO] Received data from ('127.0.0.1', 51383): 2|94711234567|Your balance is Rs.5000
+2025-04-21 10:30:48,814 [INFO] Accepted connection from ('127.0.0.1', 51384)
+2025-04-21 10:30:48,814 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:30:48,832 [INFO] Received data from ('127.0.0.1', 51384): 2|94711234567|Your balance is Rs.5000
+2025-04-21 10:30:48,837 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:30:48,852 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:30:48,865 [ERROR] Sending SMS failed for message id 2 to mobile 94711234567
+2025-04-21 10:30:48,866 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    try:
+         
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:30:48,882 [ERROR] Sending SMS failed for message id 2 to mobile 94711234567
+2025-04-21 10:36:19,609 [INFO] Accepted connection from ('127.0.0.1', 52278)
+2025-04-21 10:36:19,610 [INFO] Received data from ('127.0.0.1', 52278): 1|94771234567|Your OTP is 123456.
+2025-04-21 10:36:19,610 [INFO] Accepted connection from ('127.0.0.1', 52279)
+2025-04-21 10:36:19,610 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    logging.exception(f"{self.name}: bind failed — {e}")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:36:19,634 [INFO] Received data from ('127.0.0.1', 52279): 1|94771234567|Your OTP is 123456.
+2025-04-21 10:36:19,640 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    logging.exception(f"{self.name}: bind failed — {e}")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:36:19,664 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    logging.exception(f"{self.name}: bind failed — {e}")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:36:19,681 [ERROR] Sending SMS failed for message id 1 to mobile 94771234567
+2025-04-21 10:36:19,684 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    logging.exception(f"{self.name}: bind failed — {e}")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:36:19,738 [ERROR] Sending SMS failed for message id 1 to mobile 94771234567
+2025-04-21 10:36:31,781 [INFO] Accepted connection from ('127.0.0.1', 52324)
+2025-04-21 10:36:31,783 [INFO] Received data from ('127.0.0.1', 52324): 2|94711234567|Your balance is Rs.5000
+2025-04-21 10:36:31,783 [INFO] Accepted connection from ('127.0.0.1', 52325)
+2025-04-21 10:36:31,783 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    logging.exception(f"{self.name}: bind failed — {e}")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:36:31,834 [INFO] Received data from ('127.0.0.1', 52325): 2|94711234567|Your balance is Rs.5000
+2025-04-21 10:36:31,834 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    logging.exception(f"{self.name}: bind failed — {e}")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:36:31,850 [ERROR] Error sending SMS via 202.129.234.33: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    logging.exception(f"{self.name}: bind failed — {e}")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:36:31,857 [ERROR] Sending SMS failed for message id 2 to mobile 94711234567
+2025-04-21 10:36:31,867 [ERROR] Error sending SMS via 10.58.160.8: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+Traceback (most recent call last):
+  File "D:\SMS_Gateway_Using_Python\Gateway\telco_partner.py", line 34, in send_sms
+    logging.exception(f"{self.name}: bind failed — {e}")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'smpplib.consts' has no attribute 'SMPP_TON_ALPHANUMERIC'
+2025-04-21 10:36:31,894 [ERROR] Sending SMS failed for message id 2 to mobile 94711234567
